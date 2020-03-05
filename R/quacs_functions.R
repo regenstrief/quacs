@@ -82,7 +82,7 @@ get_acs_dd <- function(year="2018") {
 census_api_acs5 <- function(get,
                             geo="for=tract:*",
                             where="in=state:18",
-                            key="key=c8c7ed159026d564cdd274066453f5a8496ff558",
+                            key="-",
                             other="-",
                             year="2017") {
     # construct API call
