@@ -1,0 +1,39 @@
+Package: quacs
+Type: Package
+Title: Quick Use of ACS Data Shiny App
+Version: 0.1.0
+Author: Jack VanSchaik
+Maintainer: Jack VanSchaik <jtvansch@regenstrief.org>
+Description: A Shiny App for Quick Use of ACS Data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.6.0)
+Imports: 
+    collapsibleTree,
+    data.table,
+    data.tree,
+    DT,
+    geojsonio,
+    htmltools,
+    httr,
+    janitor,
+    jsonlite,
+    leaflet,
+    magrittr,
+    networkD3,
+    RCurl,
+    readxl,
+    shiny,
+    shinyWidgets,
+    shinydashboard,
+    shinyTree,
+    stringr,
+    dplyr,
+    rlang,
+    purrr,
+    tidyr,
+    readr,
+    utils
+RoxygenNote: 7.0.2
