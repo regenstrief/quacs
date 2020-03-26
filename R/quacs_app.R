@@ -133,6 +133,7 @@ quacs <- function() {
                                                                "US" = "for=us:*",
                                                                "Region" = "for=region:*",
                                                                "Division" = "for=division:*",
+                                                               "County" = "for=county:*",
                                                                "State" = "for=state:*",
                                                                "Block Group" = "for=block group:*"
                                                                )),
